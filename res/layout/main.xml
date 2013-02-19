@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:gravity="top" style="underlined">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="75dp"
+        android:visibility="visible" >
+
+    <EditText android:id="@+id/edit_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message"
+        android:layout_weight="2"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone" />
+    <Button android:id="@+id/button_send"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/button_send"
+    android:onClick="logIn" />
+    </LinearLayout>
+
+   
+   
+
+    <TextView 
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:clickable="true" 
+        android:textColor="#33B5E5"
+        android:layout_marginLeft="10dp"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/link_text"
+        android:text="@string/forgot_password"/>
+    
+</LinearLayout>

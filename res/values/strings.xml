@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PHmHealth</string>
+    <string name="edit_message">Enter Pin</string>
+    <string name="button_send">Log In</string>
+	<string name="forgot_password">Forgot Password</string>
+	<string name="alert_dialog_yes">Yes</string>
+	<string name="alert_dialog_no">No</string>
+	<string name="gps_dialog_message">Would you like to enable GPS?</string>
+	<string name="gps_disabled">GPS Disabled</string>
+	<string name="visitdate">Visit Date</string>
+	<string name="visittime">Visit Time</string>
+	<string name="patientname">Patient Name</string>
+	<string name="patientdob">Patient DOB</string>
+	<string name="patientevalcheckbox">Patient Evaluation on this visit</string>
+	<string name="addevaldetails">Add Evaluation Details</string>
+	<string name="addbillacty">Add Billable Activity</string>
+</resources>
